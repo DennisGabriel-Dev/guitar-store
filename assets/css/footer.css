@@ -1,0 +1,11 @@
+.down{
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    padding: 10vh;
+    background-image: linear-gradient( rgb(219, 218, 218) 0%,  rgb(71, 71, 71) 20%, rgb(43, 42, 42) 50%, black 100%);
+}
+
+.down a{
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+.top{
+    background-color: black;
+}
+
+.top__content{
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    padding: 5vh;   
+    justify-content: space-between;
+    
+}
+.menu__header {
+    padding-top: 5.5vh;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.title-header{
+    color: bisque;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.title-header a{
+    text-decoration: none;
+}
+
+
+#hot-sale a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: orange;
+}
+
+
+#hot-sale a:hover{
+    color: red;
+    font-size: 18px;
+}
+
+#buy-now{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#img-car{
+    height: 20px;
+}
+
+#buy-now #img-car:hover{
+    height: 22px;
+}
