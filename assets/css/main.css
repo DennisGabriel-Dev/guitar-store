@@ -1,46 +1,47 @@
-.guitar__section{
-    background-color: rgb(219, 218, 218);
-}
-
-.guitars__title{
-    font-weight: 600;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 40px;
-    margin-top: 0;
-}
-
-.guitars-zone{
+.cards{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 50px;
-    padding-bottom: 50px ;
+    justify-content: center;
+
 }
 
-
-.guitar{
-    border-radius: 10px;
-    background-color: white;
+.card-img{
+    height: 300px;
+    width: 150px;
+  
 }
 
-.guitar:hover{
-cursor: pointer;
-border-width: .5px;
-    border-style: solid;
-    border-color: orange;
-}
-
-.guitar__img{
-height: 50vh;
-border-radius: 5px;
+.card{
     cursor: pointer;
-}
-
-.price_zone{
+    margin: 10px 15px;
+    height: 350px;
+    width: 200px; 
+    justify-content: center;
+    background-color: rgb(255, 254, 252);
     text-align: center;
+    border-radius: 10px;
 }
 
-.price__guitar{
-    color: rgb(44, 39, 32);
+.card:hover{
+    transition: .4s;
+    transition-delay: 250ms;
+    height: 360px;
+    box-shadow: 0px 5px  rgba(46, 46, 46, 0.377);
+    block-size: auto;
+}
+.price{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.sub-price{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: green;
+}
+
+.cards{
+    flex-wrap: wrap;
+    
 }

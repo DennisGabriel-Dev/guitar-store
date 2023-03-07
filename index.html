@@ -4,139 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Guitar Shop</title>
 </head>
 <body>
-    <header class="top">
-        <div class="top__content">
-            <h1 class="title-header"><a href="https://github.com/DennisGabriel-Dev">Guitar Shop</a></h1>
-            <div class="top-content__menu">
-                <nav class="nav__header">
-                    <ul class="menu__header">
-                        <li id="hot-sale">
-                            <a href="#">
-                                Hot Sale
-                            </a>
-                        </li>
-                        <li id="buy-now">
-                            <a href="#">
-                                <img src= "car.png" alt="carrinho de compras" id="img-car">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <header>
+        <h1 id="titulo_da_pagina">Guitar Store</h1>
+        <div>
+            <ul class="menu__header">
+               <li id="menu_person"><ion-icon id="person" name="person-outline"></ion-icon><p>Login</p></li>
+               <li><ion-icon id="heart" name="heart-outline"></ion-icon></li>
+               <li><ion-icon id="cart" name="cart-outline"></ion-icon></li>
+            </ul>
         </div>
     </header>
+
     <main>
-        <section class="guitar__section">
-            <h2 class="guitars__title">Guitars</h2>
-            <div class="guitars-zone"> 
-                <div class="guitar">        
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_805449-MLA47887669632_102021-W.webp" alt="Tagima TW Series TW-55">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 400.00</button></h4>
-                    </div>
-                    
-                </div>
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_667235-MLA46363159482_062021-O.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 450.00</button></h4>
-                    </div>
-                    
-                </div>
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_759855-MLA46347268583_062021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 460.00</button></h4>
-                    </div>
-                    
-                </div>
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_680276-MLA46362366397_062021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 700.00</button></h4>
-                    </div>
-                    
-                </div>         
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_851077-MLA46362799140_062021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 530.00</button></h4>
-                    </div>
-                    
-                </div>
-
-                
-                
+        <div class="cards">
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_788255-MLA47518256894_092021-W.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
             </div>
 
-            <!--
-            Guitar ZONE 2
-            -->
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_712739-MLA46364219600_062021-O.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
 
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_633864-MLA51444657493_092022-O.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
 
-            <div class="guitars-zone"> 
-                <div class="guitar">        
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_998128-MLA46347336323_062021-W.webp" alt="Tagima TW Series TW-55">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 300.00</button></h4>
-                    </div>
-                        
-                </div>
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_780338-MLA46332570791_062021-F.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
 
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_694561-MLA47680718701_092021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 350.00</button></h4>
-                    </div>
-                        
-                    
-                </div>
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_680786-MLB50971254435_082022-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 470.00</button></h4>
-                    </div>
-                        
-                    
-                </div>
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_920703-MLA46362913604_062021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 530.00</button></h4>
-                    </div>
-                        
-                    
-                </div>         
-
-                <div class="guitar">
-                    <img class="guitar__img" src="https://http2.mlstatic.com/D_NQ_NP_699268-MLA46346337303_062021-W.webp" alt="Strinberg LPS Series LPS230">
-                    <div class="price_zone">    
-                        <h4 class="price__guitar"><button class="w3-btn w3-white w3-border w3-border-orange w3-round-xlarge">$ 1000.00</button></h4>
-                    </div>
-                        
-                </div>
-
-
-
-        </section>
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_662032-MLA46363239071_062021-O.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_778822-MLB53052673647_122022-O.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://http2.mlstatic.com/D_NQ_NP_719393-MLB53730005453_022023-O.webp" alt="">
+                <p class="price">R$ 1000,00</p>
+                <p class="sub-price">ou 10x R$100,00</p>
+            </div>
+            
+        </div>
     </main>
-    <footer class="down">
 
-        <a href="mailto:dennisgabrielsa@hotmail.com">@dennisgabrielsa</a>
-    
-    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

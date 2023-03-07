@@ -1,56 +1,60 @@
-.top{
-    background-color: black;
+header{
+    padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010221;
 }
 
-.top__content{
+#titulo_da_pagina{
+    color: #C43302;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 900;
+}
+
+.menu__header{
     display: flex;
     flex-direction: row;
-    text-align: center; 
-    padding: 5vh;   
-    justify-content: space-between;
-    
+    justify-content: center;
+    align-items: center;
+    color:#EDAA25;
 }
-.menu__header {
-    padding-top: 5.5vh;
-    display: flex;
-    text-align: center;
+
+.menu__header li{
+    padding-left: 10px;
     list-style: none;
+    align-items: center;
 }
 
-.title-header{
-    color: bisque;
-    font-size: 2em;
-    font-weight: 600;
-    margin-left: 50px;
-    font-size: 40px;
+.menu__header #cart{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
 }
 
-.title-header a{
-    text-decoration: none;
+.menu__header #heart{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
 }
 
-
-#hot-sale a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: orange;
+.menu__header #person{
+    height: 25px;
+    width: 25px;
 }
 
-
-#hot-sale a:hover{
-    color: red;
-    font-size: 18px;
+#menu_person {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
 }
 
-#buy-now{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#img-car{
-    height: 20px;
-}
-
-#buy-now #img-car:hover{
-    height: 22px;
+#menu_person p{
+    border-radius: 5px;
+    border-color: #EDAA25;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    border-width: 3px;
+    padding: 5px 3px;
+    margin-left: 2px;
 }
